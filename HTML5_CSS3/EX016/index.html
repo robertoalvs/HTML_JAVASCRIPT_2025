@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+
+    <style>
+
+        body {
+
+            background-image: linear-gradient(to right, gray, rgba(128, 128, 128, 0.388));
+            
+        }
+
+        body:hover {
+
+            background-image: linear-gradient(to right, gray, pink);
+            transition: ease-out 2s;
+        }
+
+        main {
+
+            background-color: rgb(255, 255, 255);
+            width: 500px;
+            margin: auto;
+            margin-top: 40px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px black;
+        }
+
+        h2 {
+
+            color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        
+        p {
+
+            padding: 10px;
+            text-align: justify;
+        }
+
+                  .paragrafo1:hover {
+
+                    background-color: blueviolet;
+                    transition: 4s;
+       
+                  }
+    </style>
+</head>
+<body>
+        <main>
+            <h2 >Exemplo de Cores</h2>
+            <p class="paragrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima accusantium dolores nobis, architecto quos, amet voluptates fugiat assumenda soluta error enim? Nemo quidem id necessitatibus nulla, odio delectus ex numquam.</p>
+            <p style="color: chartreuse; background-color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima accusantium dolores nobis, architecto quos, amet voluptates fugiat assumenda soluta error enim? Nemo quidem id necessitatibus nulla, odio delectus ex numquam.</p>
+            <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima accusantium dolores nobis, architecto quos, amet voluptates fugiat assumenda soluta error enim? Nemo quidem id necessitatibus nulla, odio delectus ex numquam.</p>
+        </main>
+</body>
+</html>
