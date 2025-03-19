@@ -44,3 +44,28 @@ div {
     display: block;
     color: blue;
 }
+
+li {
+
+        list-style: none;
+        text-align: start;
+        display: inline-block;
+   
+    }
+
+    a {
+
+        text-decoration: none;
+    }
+
+    a:visited {
+
+        color: blue;
+    }
+
+    a::after {
+
+        content: '	♥';
+        font-size: 3em;
+        color: #e366be;
+    }
