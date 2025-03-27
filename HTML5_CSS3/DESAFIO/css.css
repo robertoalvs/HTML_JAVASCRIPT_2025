@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: antiquewhite;
+}
+
+header {
+
+    background-image: linear-gradient(to top, rgb(26, 67, 26), rgb(69, 195, 69));
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+h1 {
+
+    text-align: center;
+    padding: 10px;
+}
+
+header > p {
+
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#menu1 > ul > li {
+
+    display: inline-block;
+    margin-left: 15px;
+    
+    
+}
+
+#menu1 >ul  {
+
+    background-color: rgb(10, 51, 10);
+    padding: 7px;
+}
+
+main {
+
+    margin: auto;
+    max-width: 850px;
+    background-color: white;
+    padding: 20px;
+}
+
+#sessao1 > .artigo1 > h2 {
+
+    margin-bottom: 10px;
+}
+
+#sessao1 > .artigo1 > p {
+
+    text-align: justify;
+    padding: 5px;
+    text-indent: 25px;
+}
+
+#sessao2 > .artigo2 > h3 {
+
+    margin: 15px 0px 15px 0px;  
+    background-image: linear-gradient(to right, rgb(97, 243, 119), white);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#sessao2 > .artigo2 > p {
+
+    text-align: justify;
+    padding: 5px;
+    text-indent: 25px;
+}
+
+#sessao3 > .artigo3 > h3 {
+
+    margin: 15px 0px 15px 0px;  
+    background-image: linear-gradient(to right, rgb(97, 243, 119), white);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#sessao3 > .artigo3 > p {
+
+    text-align: justify;
+    padding: 5px;
+    text-indent: 25px;
+}
+
+.foto-bugdroid {
+
+    display: block;
+    margin: auto;
+}
+
+.videoyoutube > iframe {
+
+    display: block;
+    margin: auto;
+}
+
+.videoyoutube {
+
+    background-color: green;
+    max-width: 850px;
+}
+
+iframe {
+
+    padding: 20px;
+}
+
+
+#sessao4 > aside > h3 {
+
+    padding: 10px;
+    background-color: rgb(51, 151, 51);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+#sessao4 > aside {
+
+    margin: auto;
+    display: block;
+    background-color: rgb(129, 220, 129);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 0px 0px 20px 0px;
+}
+
+#menu-aside > ul  {
+
+    columns: 2;
+    margin: 15px 0px 15px 15px;
+}
+
+#menu-aside > ul > li {
+
+    list-style: none;
+    
+}
+
+#sessao4 > aside > p {
+
+    text-align: justify;
+    padding: 10px;
+    text-indent: 25px;
+}

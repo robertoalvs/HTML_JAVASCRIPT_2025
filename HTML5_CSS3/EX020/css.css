@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-color: rgb(121, 119, 119);
+}
+
+header {
+
+        background-color: rgb(51, 74, 110);
+        width: 650px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+header > h1 {
+
+    padding: 5px;
+    text-shadow: 2px 1px 1px white;
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 2.3em;
+    margin-bottom: 5px;
+}
+
+nav {
+
+    padding-bottom: 13px;
+}
+
+nav > ul {
+
+    background-color: #4b769c;
+    width: 480px;
+    margin: auto;
+    box-shadow: 14px -3px 10px 5px rgba(106, 50, 228, 0.388);
+    border-radius: 5px;
+    outline: 7px double gray;
+}
+
+nav > ul > li {
+
+list-style: none;
+display: inline-block;
+margin: 15px 15px 0 15px;
+
+}
+
+.submenu {
+
+   display: none;
+}
+
+#menu1:hover {
+
+    display: block;
+    visibility: visible;
+}
+
+
+a {
+
+text-decoration: none;
+}
+
+a:visited {
+
+color: rgb(186, 226, 43);
+}
+
+
+main {
+
+    width: 650px;
+    margin: auto;
+    background-color: rgb(197, 194, 194);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+    margin-top: 10px;
+}
+
+main > .sessao1, .sessao2 {
+
+    text-align: justify;
+    width: 600px;
+    padding: 15px;
+}
+
+h2 {
+
+    margin-bottom: 5px;
+}
+
+footer {
+
+    text-align: center;
+    text-transform: lowercase;
+    background-color: black;
+    width: 650px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    margin-top: 5px;
+}
