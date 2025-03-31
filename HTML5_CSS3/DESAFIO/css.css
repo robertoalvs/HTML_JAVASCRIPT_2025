@@ -9,7 +9,16 @@
 }
 
 
+:root {
+
+    --cor0: #c5ebd6;
+    --cor1: rgb(30, 137, 30);
+    --fonttitulos: "idroid";
+}
+
+
 @media screen and (max-width: 650px) {
+
 
     iframe {
 
@@ -32,8 +41,14 @@
 
         text-align: center;
     }
-    
+
+  #sessao1 > .artigo1 > h2 {
+
+    font-size: 1.4em;
+  }
+
 }
+
 
 
 
@@ -59,8 +74,8 @@ body {
 
 strong {
 
-    color: rgb(30, 137, 30);
-    font-family: 'idroid';
+    color: var(--cor1);
+    font-family: var(--fonttitulos);
     font-weight: 100;
 }
 
@@ -68,7 +83,7 @@ strong {
 
 h2, h3 {
 
-    font-family: 'idroid';
+    font-family: var(--fonttitulos);
     color: rgb(19, 128, 19);
     font-weight: 100;
 }
@@ -82,12 +97,15 @@ header {
     background-image: linear-gradient(to top, rgb(10, 31, 10), rgb(69, 195, 69));
     color: white;
     padding: 20px 0px 0px 0px;
+    box-shadow: 2px 5px 10px green;
 }
 
 h1 {
 
     text-align: center;
     padding: 10px;
+    text-shadow: 2px 2px 5px black;
+    font-size: 2.5em;
 }
 
 header > p {
@@ -103,6 +121,16 @@ header > p {
     display: inline-block;
     margin-left: 15px;
     padding: 7px;
+}
+
+abbr {
+
+    text-decoration: none;
+}
+
+abbr:hover {
+
+    color: white;
 }
 
 #menu1 > ul > li:hover {
@@ -125,6 +153,7 @@ main {
     max-width: 850px;
     background-color: white;
     padding: 20px;
+    box-shadow: inset -2px 1px 20px 0px rgb(168, 245, 168);
 }
 
 #sessao1 > .artigo1 > h2 {
