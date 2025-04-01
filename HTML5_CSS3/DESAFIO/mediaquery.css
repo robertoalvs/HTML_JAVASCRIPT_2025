@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 667px) {
+
+
+    iframe {
+
+        width: 450px;
+    }
+
+    .foto-irina {
+
+        display: block;
+        margin: auto;
+        padding: 5px;
+    }
+
+    #menu1 > ul  {
+
+        text-align: center;
+    }
+
+    p {
+
+        text-align: center;
+    }
+
+     #sessao1 > .artigo1 > h2 {
+
+          font-size: 1.4em;
+     }
+
+    
+}
+
+@media screen and (max-width: 500px){
+
+
+    h2, strong {
+
+        color: var(--cor2);
+    }
+
+
+    header {
+
+        background-image: linear-gradient(to top, #0d21a4, #94c8f3);
+        
+      }
+
+      #menu1 > ul > li:hover {
+
+        background-color: #3f38f3;
+ }
+
+        main {
+
+            box-shadow: inset -2px 1px 20px 0px #94c8f3;
+        }
+
+        div {
+
+            background-image: linear-gradient(to top, #5367e8, #278ada);
+        }
+
+    #sessao2 > .artigo2 > h3 {
+
+     
+        background-image: linear-gradient(to right, #243cdb, #94c8f3);
+        color: white;
+    
+    }
+
+    #sessao3 > .artigo3 > h3 {
+
+     
+        background-image: linear-gradient(to right, #243cdb, #94c8f3);
+        color: white;
+    }
+
+    #sessao4 > aside > h3 {
+
+        background-color: rgb(63, 56, 243);
+    }
+
+    #sessao4 > aside {
+
+        background-image: linear-gradient(to top, #5367e8, #94c8f3);
+    }
+
+    footer {
+
+        background-color: #3f38f3;
+    }
+   
+
+}

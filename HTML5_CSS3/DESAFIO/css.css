@@ -13,44 +13,10 @@
 
     --cor0: #c5ebd6;
     --cor1: rgb(30, 137, 30);
+    --cor2: rgb(36, 60, 219);
+    --cor3: rgb(148, 200, 243);
     --fonttitulos: "idroid";
 }
-
-
-@media screen and (max-width: 650px) {
-
-
-    iframe {
-
-        width: 450px;
-    }
-
-    .foto-irina {
-
-        display: block;
-        margin: auto;
-        padding: 5px;
-    }
-
-    #menu1 > ul  {
-
-        text-align: center;
-    }
-
-    p {
-
-        text-align: center;
-    }
-
-  #sessao1 > .artigo1 > h2 {
-
-    font-size: 1.4em;
-  }
-
-}
-
-
-
 
 
 /* ===== CONFIGURAÇÃO GLOBAL ===== */
@@ -114,6 +80,7 @@ header > p {
     padding: 10px;
     margin-bottom: 20px;
 }
+
 
 /* ===== MENU CABEÇARIO ===== */
 #menu1 > ul > li {
