@@ -88,6 +88,7 @@ header > p {
     display: inline-block;
     margin-left: 15px;
     padding: 7px;
+    font-family: var(--fonttitulos);
 }
 
 abbr {
