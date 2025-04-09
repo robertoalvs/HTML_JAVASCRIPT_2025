@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 250px;
+}
+
+h1 {
+    padding-top: 100px;
+    font-size: 4em;
+}
+
+header > p > span{
+
+   font-weight: bolder;
+}
+
+#sessao01 {
+    
+
+}
+
+.artigo01 {
+
+    width: 450px;
+    padding: 40px;
+}
+
+#sessao01 > .artigo01 > p {
+
+    text-align: left;
+    font-size: 1.80em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sessao02> .artigo02> p {
+
+    text-align: left;
+    font-size: 1.80em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artigo02{
+
+    width: 450px;
+    padding: 40px;
+}
+
+#sessao03 .artigo03 > p {
+
+    text-align: left;
+    font-size: 1.80em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artigo03 {
+
+    width: 450px;
+    padding: 40px;
+}
+
+#sessao0 .artigo04p {
+
+    text-align: left;
+    font-size: 1.80em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artigo04{
+
+    width: 450px;
+    padding: 40px;
+}
+
+
+#sessao03 .artigo03 p {
+
+    text-align: left;
+    font-size: 1.80em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.artigo03 {
+
+    width: 450px;
+    padding: 40px;
+}

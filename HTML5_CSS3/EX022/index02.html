@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas centralizadas</title>
+
+    <style>
+
+        #container {
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: purple;
+            
+        }
+
+        #conteudo {
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%); /* (POSITIVO, ele vai para direitra e para baixo ex: 50%, 50%) (NEGATIVO, ele vai para esquerda e para cima, ex: -50%, -50%)*/
+            
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="container">
+
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
