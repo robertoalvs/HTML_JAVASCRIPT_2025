@@ -26,11 +26,6 @@ header > p > span{
    font-weight: bolder;
 }
 
-#sessao01 {
-    
-
-}
-
 .artigo01 {
 
     width: 450px;
@@ -44,25 +39,29 @@ header > p > span{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#sessao02> .artigo02> p {
 
-    text-align: left;
-    font-size: 1.80em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#sessao02 {
+
+    background-image: url(../DESAFIO2/pacote-d012/imagens/background001.jpg);
+    background-position: left center;
+    background-size: cover;
 }
 
-.artigo02{
+.artigo02 {
 
-    width: 450px;
+    width: 400px;
     padding: 40px;
+    background-color: rgba(0, 0, 0, 0.342) ;
 }
 
-#sessao03 .artigo03 > p {
+#sessao02 > .artigo02 > p {
 
     text-align: left;
+    color: white;
     font-size: 1.80em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .artigo03 {
 
@@ -70,29 +69,42 @@ header > p > span{
     padding: 40px;
 }
 
-#sessao0 .artigo04p {
+#sessao03 > .artigo03 > p {
 
     text-align: left;
     font-size: 1.80em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.artigo04{
+.paragrafo {
+
+    margin-top: 40px;
+}
+
+
+.artigo04 {
 
     width: 450px;
     padding: 40px;
 }
 
-
-#sessao03 .artigo03 p {
+#sessao04 > .artigo04 > p {
 
     text-align: left;
     font-size: 1.80em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.artigo03 {
+
+.artigo05 {
 
     width: 450px;
     padding: 40px;
+}
+
+#sessao05 > .artigo05 > p {
+
+    text-align: left;
+    font-size: 1.80em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
