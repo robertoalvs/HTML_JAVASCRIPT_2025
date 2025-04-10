@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
 * {
 
     margin: 0;
@@ -13,7 +17,7 @@ header {
     background-color: black;
     text-align: center;
     color: white;
-    height: 250px;
+    height: 300px;
 }
 
 h1 {
@@ -26,17 +30,26 @@ header > p > span{
    font-weight: bolder;
 }
 
+#sessao01 {
+
+    height: 500px;
+}
+
 .artigo01 {
 
-    width: 450px;
-    padding: 40px;
+    width: 348px;
+    margin-left: 50px;
+    padding-top: 30px;
 }
 
 #sessao01 > .artigo01 > p {
 
     text-align: left;
-    font-size: 1.80em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.70em;
+    line-height: 55px;
+    font-family: "Sriracha", cursive;
+    padding: 10px;
 }
 
 
@@ -45,66 +58,100 @@ header > p > span{
     background-image: url(../DESAFIO2/pacote-d012/imagens/background001.jpg);
     background-position: left center;
     background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
 }
 
 .artigo02 {
 
-    width: 400px;
-    padding: 40px;
-    background-color: rgba(0, 0, 0, 0.342) ;
+    width: 348px;
+    margin-left: 50px;
+    padding-top: 30px;
 }
 
 #sessao02 > .artigo02 > p {
 
     text-align: left;
     color: white;
-    font-size: 1.80em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.70em;
+    line-height: 50px;
+    font-family: "Sriracha", cursive;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.226) ;
+}
+
+#sessao03 {
+
+    height: 770px;
 }
 
 
 .artigo03 {
 
-    width: 450px;
-    padding: 40px;
+    width: 350px;
+    margin-left: 50px;
+    padding-top: 30px;
 }
 
 #sessao03 > .artigo03 > p {
 
     text-align: left;
-    font-size: 1.80em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    line-height: 40px;
+    font-size: 1.7em;
+    font-family: "Sriracha", cursive;
+    padding: 10px;
 }
 
 .paragrafo {
 
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
+#sessao04 {
+
+    background-image: url(../DESAFIO2/pacote-d012/imagens/background002.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
 
 .artigo04 {
 
-    width: 450px;
-    padding: 40px;
+    width: 350px;
+    margin-left: 50px;
+    padding-top: 40px;
 }
 
 #sessao04 > .artigo04 > p {
 
     text-align: left;
-    font-size: 1.80em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.70em;
+    line-height: 50px;
+    font-family: "Sriracha", cursive;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.226) ;
 }
 
 
 .artigo05 {
 
-    width: 450px;
-    padding: 40px;
+    width: 350px;
+    margin-left: 50px;
+    padding-top: 40px;
 }
 
 #sessao05 > .artigo05 > p {
 
     text-align: left;
-    font-size: 1.80em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.70em;
+    line-height: 50px;
+    font-family: "Sriracha", cursive;
+    padding: 10px;
+    border-radius: 10px;
 }
