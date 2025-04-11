@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --cor01: #1d3d76;
+    --cor02: #b74e07;
+    --cor03: #597dbd;
+    --cor04: #f3cfb6;
+    --cor05: #fff;
+    --fundo:  url('../DESAFIO03/fotos/142885185_b8d401d23e_c.jpg');
+    --font: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+body {
+
+    font-family: var(--font);
+}
