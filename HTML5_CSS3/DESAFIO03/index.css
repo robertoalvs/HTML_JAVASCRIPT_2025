@@ -122,6 +122,7 @@ main {
 
     width: 70%;
     position: relative;
+    border-radius: 7px;
 }
 
 
@@ -258,9 +259,11 @@ aside {
     top: 20px;
     left: 700px;
     background-color: #f5f8fa;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
     font-size: .75em;
     color: #1d3d76;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px #597dbd;
 }
 
 .h4-aside {
@@ -280,6 +283,36 @@ aside {
     font-size: 1em;
 }
 
+.lista-aside {
+
+    margin-left: 20px;
+}
+
+.link-aside2 {
+
+    text-decoration: none;
+    color: #597dbd;
+}
+
+.link-aside2:hover {
+
+    background-color: #f3cfb6;
+}
+
+
+.link-aside4 {
+
+    text-decoration: none;
+    color: #597dbd;
+}
+
+.link-aside4:hover {
+
+    background-color: #f3cfb6;
+}
+
+
+
 /* Início footer*/
 footer {
 
@@ -292,6 +325,7 @@ footer {
 
     text-align: justify;
     font-size: .75em;
+    color: #1d3d76;
 }
 
 .h4-footer {
@@ -299,5 +333,23 @@ footer {
     margin-bottom: 4px;
     color: #b74e07;
     font-size: 1.040em;
+}
+
+
+.lista-footer-fotos {
+
+    list-style: none;
+    display: inline;
+}
+
+.link-footer{
+
+    text-decoration: none;
+    color: #597dbd;
+}
+
+.link-footer:hover {
+
+    background-color: #f3cfb6;
 }
 /*FIM footer*/
